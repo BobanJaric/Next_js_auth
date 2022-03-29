@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+.product-main{
+    font-family: "Poppins";
+    color: rgb(34, 82, 121);
+    max-width: 75rem;  
+    width: 100%; 
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(34, 82, 121); 
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.auth-holder .email{
+    margin-right: 1rem;
+    color:rgb(34, 82, 121); 
+}
+
+.auth-holder button{
+    font: inherit;
+  border: 1px solid rgb(34, 82, 121); 
+  border-radius: 5px;
+  background: rgb(88, 121, 153);
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:5px;
+}
+
+.auth-holder button:hover,
+.auth-holder button:active {
+  color: rgb(88, 121, 153);
+  background: white;
+}
+
+.category-holder{
+    background-color: rgb(88, 121, 153);
+    margin: 1rem 0;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    color: #ECE7e2;
+
+}
+
+.product-holder{
+    display: grid;
+    grid-template-columns: 1fr 8fr 2fr;
+    gap: 2rem;
+    margin: 0.5rem 0;
+}
+
+.product-name{
+    border: 0.1rem solid rgb(34, 82, 121); 
+    height: fit-content;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.product-img{
+    width: 5rem;
+    height: 5rem;
+
+}
+
+ .product-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+} 

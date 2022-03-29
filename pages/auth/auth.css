@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+.auth__header {
+    color: white;
+    text-align: center;
+  }
+  
+.auth {
+    font-family: "Poppins";
+    width: 90%;
+    height: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    text-align: center;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+  }
+
+.auth  form div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+.auth input {
+    width: 20rem; 
+    height: 3rem;
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+.auth button{
+    font: inherit;
+    margin-top: 1.5rem;
+    width: 20rem; 
+    height: 3rem;
+    padding: 0.15rem 0.25rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+  }
+
+  .auth button:hover{
+    background-color:rgb(34, 82, 121); 
+    color: white;
+  }
+
+ .auth .change-mode-holder{
+   width:20rem;
+   height: 3rem;
+   margin: 0 auto;
+   margin-top: 0.5rem;
+   display: flex;
+   justify-content: flex-end;
+   color:rgb(34, 82, 121); 
+ }
+
+ #change-mode{
+   cursor: pointer;
+   text-decoration:underline;
+ }
+ #change-mode:hover{
+  text-decoration:none;
+}
+
+.check-box-holder{
+    width: auto;
+    margin: 0 25px;
+    display: flex;
+
+  }
+
+
+
+.check-box-holder input{
+    width: auto;
+    margin: 0;
+  }
+.check-box-holder label{
+    width: auto;
+    overflow: hidden;
+    padding: 10px 0px 0px 15px;
+  }
